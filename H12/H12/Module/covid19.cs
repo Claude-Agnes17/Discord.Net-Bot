@@ -16,7 +16,7 @@ namespace H12.Module
         [SlashCommand("코로나현황", "코로나통계를 보여줍니다")]
         public async Task COVID19Command([Summary("지역", "현황을 보고싶은 지역을 선택하여주세요")]COVIDEnum region)
         {
-            string apikey = "";
+            string apikey = "api key here";
             try
             {
                 string url = "https://api.corona-19.kr/korea/beta/?serviceKey=" + apikey;

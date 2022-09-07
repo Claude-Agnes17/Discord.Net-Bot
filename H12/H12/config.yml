@@ -1,0 +1,4 @@
+﻿prefix: "!"
+testGuild: guild here
+tokens:
+    discord: "token here"
